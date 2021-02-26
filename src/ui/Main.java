@@ -48,6 +48,7 @@ public class Main {
 		for(int i = 0; i < tests.length; i++) {
 			tidy += tests[i] + " ";
 		}
+		tidy = tidy.substring(0,tidy.length()-1);
 		tidy += "\n";
 		
 		return tidy;
