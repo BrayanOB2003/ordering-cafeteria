@@ -43,7 +43,7 @@ public class Main {
 		}
 		
 		average = (double) Math.round((past/exchanges)*100d)/100d;
-		tidy += average + " - ";  
+		tidy += average + " - ";
 		
 		for(int i = 0; i < tests.length; i++) {
 			tidy += tests[i] + " ";
@@ -60,7 +60,6 @@ public class Main {
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
 		int cases = Integer.parseInt(br.readLine());  
-		int modifications = 0; 
 		String tidy ="";
 		String line = "";
 		double[] tests;
