@@ -42,7 +42,7 @@ public class Main {
 			}
 		}
 		
-		average = (double) Math.round((past/exchanges)*100d)/100d;
+		average = Math.floor((exchanges/past)*1e2)/1e2;
 		tidy += average + " - ";
 		
 		for(int i = 0; i < tests.length; i++) {
